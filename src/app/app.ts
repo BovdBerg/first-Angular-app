@@ -4,7 +4,7 @@ import {RouterModule} from '@angular/router';
 @Component({
   selector: 'app-root',
   imports: [RouterModule],
-template: `
+  template: `
     <main>
       <a [routerLink]="['/']">
         <header class="brand-name">
